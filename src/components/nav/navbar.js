@@ -4,7 +4,10 @@ import React from 'react';
 const Navbar = () => {
     return(
         <>
-        <div>I'm a NavBar</div>
+        <div>I'm a NavBar
+        <a href='/'> LogIn || </a>
+        <a href='/'>LogOut</a>
+        </div>
         </>
     )
 }
